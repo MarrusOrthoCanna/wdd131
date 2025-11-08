@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #333;
+}
+
+#course-title {
+  display: block;
+  background-color: steelblue;
+  padding: 1rem;
+  border: 1px solid rgb(0 0 0 / 10%);
+  font-size: 2rem;
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(46, 48, 51);
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  display: block;
+  color: antiquewhite;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  border: 1px solid #fff;
+}
+
+main {
+  max-width: 840px;
+  display: grid;
+  margin: 1rem;
+}
+
+section {
+  display: grid;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin: .5rem;
+}
+
+.me img {
+  float: right;
+}
+
+.profile {
+  width: 120px;
+  height: auto;
+  margin-right: 1rem;
+
+}
+
+.card {
+  border-radius: .5rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.country {}
+
+.country-img {
+  float: left;
+
+}
