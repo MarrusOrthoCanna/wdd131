@@ -9,6 +9,13 @@ body {
   padding: 0;
 }
 
+header,
+main,
+footer {
+  width: 1000px;
+  margin: 0 auto;
+}
+
 body {
   line-height: 1.5;
   font-family: 'Montserrat Alternates', sans-serif;
@@ -53,7 +60,7 @@ main {
   margin: 1rem;
 }
 
-section {
+main section {
   display: grid;
 }
 
@@ -61,6 +68,10 @@ img {
   width: 100%;
   height: auto;
   margin: .5rem;
+}
+
+footer {
+  text-align: center;
 }
 
 .me img {
@@ -83,5 +94,6 @@ img {
 
 .country-img {
   float: left;
+  width: 130px;
 
 }
